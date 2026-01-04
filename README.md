@@ -1,4 +1,14 @@
-🚀 Current State
+# 🕹️ How to use
+To use is very simple. 
+Download the zip or clone, then you can upload this to a local or your website.
+If you just want to be able to double click on it and playing it in a browser from your PC, then rename the index.php
+to index.html, and then open that with your browser. It should play just fine, but wont record your score into a log.
+
+This uses PHP to do that so it needs to be hosted on a host. PHP being a server side language, that meand it needs a server enviorment to interpret the ,php files and I wrote it
+in PHP for most of the sites I work on use PHP to pull user information, so it is just easier for me to write it in the language that I know personally would use the most.
+
+
+# ***🚀 Current State***
 This game is now a feature-rich, responsive, single-file-compatible web module that blends retro arcade gameplay with modern web standards.
 
 Transformed it from a basic missile-defense prototype into a complete, round-based arcade experience with progressive difficulty, bonus content, audio, visuals, and persistent scoring.
@@ -9,7 +19,7 @@ Big thanks to luciadeveloping for starting the bases of what it is now.
 
 ![Missile_Command](https://github.com/user-attachments/assets/d18c7ba7-1517-4a69-80a0-cbaf29395839)
 
-🎮 Missile Command – Development Evolution Summary
+# 🎮 Missile Command – Core Changes that I have done
 1. Core Foundation
 Fully client-side HTML5 Canvas game using vanilla JavaScript, structured with custom classes (Vector2, Missile, Explosion, Turret, City, Jet, Alien) for clear object-oriented game logic.
 Implemented real-time rendering via requestAnimationFrame and game loop timing with setInterval for updates at 100 FPS.
