@@ -1,3 +1,14 @@
+🚀 Current State
+This game is now a feature-rich, responsive, single-file-compatible web module that blends retro arcade gameplay with modern web standards.
+
+Transformed it from a basic missile-defense prototype into a complete, round-based arcade experience with progressive difficulty, bonus content, audio, visuals, and persistent scoring.
+
+This is still just pure HTML, CSS, JavaScript, and lean PHP integration.
+
+Big thanks to luciadeveloping for starting the bases of what it is now.
+
+![Missile_Command](https://github.com/user-attachments/assets/d18c7ba7-1517-4a69-80a0-cbaf29395839)
+
 🎮 Missile Command – Development Evolution Summary
 1. Core Foundation
 Fully client-side HTML5 Canvas game using vanilla JavaScript, structured with custom classes (Vector2, Missile, Explosion, Turret, City, Jet, Alien) for clear object-oriented game logic.
@@ -21,7 +32,6 @@ UI Elements: Score, round counter, blinking "PLAY" button, mute toggle, and in-g
 Background music and SFX.
 Audio elements embedded in HTML and triggered via JS (with error-safe .play() calls).
 5. Game States & Flow!
-
 Start/Restart Logic: StartGame() initializes all arrays, resets state, and clears canvas.
 End Game: Triggers when all cities are destroyed—displays centered "Game Over" image, stops loops, pauses music, and plays game-over SFX.
 Round Completion: Temporarily pauses with on-screen message before auto-starting next round.
@@ -33,12 +43,3 @@ Touch support via synthetic mouse events for mobile play.
 Canvas-clearing logic to instantly remove "Game Over" screen on restart.
 Safe audio playback with Promise error handling to avoid console noise.
 Code organization: Global arrays, helper functions (ClearArray, removeFromArray), and modular update/draw loops.
-
-[Missile_Command](https://github.com/user-attachments/assets/d18c7ba7-1517-4a69-80a0-cbaf29395839)
-
-🚀 Current State
-This game is now a feature-rich, responsive, single-file-compatible web module that blends retro arcade gameplay with modern web standards.
-
-Transformed it from a basic missile-defense prototype into a complete, round-based arcade experience with progressive difficulty, bonus content, audio, visuals, and persistent scoring.
-
-This is still just pure HTML, CSS, JavaScript, and lean PHP integration.
